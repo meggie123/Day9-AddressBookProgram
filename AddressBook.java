@@ -4,9 +4,10 @@ import java.util.Scanner;
     public class AddressBook {
         public static void main(String[] args) {
             System.out.println("Welcome To Address Book Program");
-            getInput();
+            OptionMenu operation = new OptionMenu(); // created object of OptionMenu
+            operation.operation();
         }
-        ArrayList<DetailsAddressBook> contactArrayList = new ArrayList<>();
+    
 
         public static void getInput() {
             DetailsAddressBook details = new DetailsAddressBook();
