@@ -7,8 +7,6 @@ import java.util.Scanner;
             OptionMenu operation = new OptionMenu(); // created object of OptionMenu
             operation.operation();
         }
-    
-
         public static void getInput() {
             DetailsAddressBook details = new DetailsAddressBook();
             Scanner input = new Scanner(System.in);
