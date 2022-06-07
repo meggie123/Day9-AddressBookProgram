@@ -70,6 +70,19 @@ public class DetailsAddressBook {
         return emailAddress;
     }
 
+    @Override
+    public String toString() {
+        return "DetailsAddressBook{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", zip=" + zip +
+                ", emailAddress='" + emailAddress + '\'' +
+                '}';
+    }
     public void setEmailAddress(String emailAddress) {
         this.emailAddress = emailAddress;
     }
